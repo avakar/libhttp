@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="deps.props" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(dep_35ba1e66_01e2_11e7_93ae_92361f002671_self)\include;$(dep_35ba1e66_01e2_11e7_93ae_92361f002671_string_view)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(dep_35ba1e66_01e2_11e7_93ae_92361f002671_self)\libhttp.vcxproj">
+      <Project>{e7e2a2a2-8aba-4976-92eb-cc410b97b991}</Project>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

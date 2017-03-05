@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\stream.cpp" />
+    <ClCompile Include="src\http2_server.cpp" />
+    <ClCompile Include="src\http_server.cpp" />
+    <ClCompile Include="src\utils.cpp" />
+    <ClCompile Include="src\hpack.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\stream.hpp" />
+    <ClInclude Include="include\http_server.hpp" />
+    <ClInclude Include="src\utils.hpp" />
+    <ClInclude Include="src\hpack.hpp" />
+    <ClInclude Include="src\hpack_unhuff.hpp" />
+  </ItemGroup>
+</Project>
