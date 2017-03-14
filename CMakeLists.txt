@@ -10,3 +10,4 @@ add_library(libhttp
 
 target_include_directories(libhttp PUBLIC include)
 target_link_libraries(libhttp string_view string_utils avakar_libstream)
+set_property(TARGET libhttp PROPERTY CXX_STANDARD 14)

@@ -155,7 +155,7 @@ void http2_server(istream & in, ostream & out, std::function<response(request &&
 
 	endpoint_settings next_server_settings;
 	endpoint_settings client_settings;
-	std::atomic<int> client_settings_in_flight = 0;
+	std::atomic<int> client_settings_in_flight(0);
 
 	auto send_frame = [&](frame_type type, char flags, uint32_t stream_id, std::string_view payload) {
 		char header[9];

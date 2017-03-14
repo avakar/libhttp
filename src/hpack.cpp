@@ -65,7 +65,7 @@ static header_view const g_static_table[] = {
 	{ "www-authenticate" },
 };
 
-static size_t const g_static_table_size = std::size(g_static_table);
+static size_t const g_static_table_size = sizeof(g_static_table) / sizeof(g_static_table[0]);
 
 hpack_dynamic_table::hpack_dynamic_table()
 	: table_size_(0), table_capacity_(0)
