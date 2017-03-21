@@ -1,0 +1,30 @@
+{
+  "": {
+    "dependencies": {
+      "libstream": "_deps/libstream", 
+      "string_utils": "_deps/string_utils", 
+      "string_view": "_deps/string_view"
+    }
+  }, 
+  "_deps/libstream": {
+    "commit": "12ff67b3a45424e6bf64d68810201bc7da809c35", 
+    "dependencies": {
+      "string_view": "_deps/string_view"
+    }, 
+    "type": "git", 
+    "url": "git@github.com:avakar/libstream.git"
+  }, 
+  "_deps/string_utils": {
+    "commit": "ae234b8980881d9f87e15f7bb86f1aacf6855255", 
+    "dependencies": {
+      "string_view": "_deps/string_view"
+    }, 
+    "type": "git", 
+    "url": "https://github.com/avakar/string_utils.git"
+  }, 
+  "_deps/string_view": {
+    "commit": "eeb80ca27ad32a89a980bcd116b032d727bbbf2e", 
+    "type": "git", 
+    "url": "https://github.com/avakar/string_view.git"
+  }
+}

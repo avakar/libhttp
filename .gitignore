@@ -1,3 +1,4 @@
+_deps/
 deps.props
 deps.cmake
 Debug/
